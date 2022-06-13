@@ -1,0 +1,44 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    width: 100%;
+    background-color: #24223d;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.time{
+    margin-right: 20px;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+}
+
+.right a{
+    margin: 0 20px;
+}
+
+.input{
+    border-radius: 15px;
+}
+
+.image{
+    width: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+    /* For mobile phones: */
+    .right{
+        width: 100%;
+    }
+    .right input{
+        width: 100%;
+    }
+    .date{
+        display: none;
+    }
+}
